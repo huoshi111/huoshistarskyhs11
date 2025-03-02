@@ -10,7 +10,7 @@
             isMenuOpen = !isMenuOpen;
 
             // 切换按钮文字
-            menuBtn.textContent = isMenuOpen ? '隐藏菜单' : '主菜单';
+            menuBtn.textContent = isMenuOpen ? '隐藏导航' : '打开导航';
 
             // 切换功能按钮的显示状态
             funcButtons.forEach(btn => {
@@ -66,3 +66,5 @@
             const backBtn = document.getElementById('backBtn');
             backBtn.classList.remove('show');
         }
+
+
