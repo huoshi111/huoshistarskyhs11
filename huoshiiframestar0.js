@@ -9,6 +9,7 @@
         huoshistarxkOpenButton2: "https://www.eso.org/public/images/eso0907a/zoomable/", //银河系
         huoshistarxkOpenButton3: "https://www.eso.org/public/images/eso1907a/zoomable/", //黑洞 M87
         huoshistarxkOpenButton4: "https://upload.wikimedia.org/wikipedia/commons/6/60/ESO_-_Milky_Way.jpg", // 银河系
+        huoshistarxkOpenButton5: "https://www.eso.org/public/images/potw1912a/zoomable/", // 首页
     };
     
     // 绑定按钮点击事件
@@ -33,3 +34,6 @@
             overlay.style.display = 'none';
         }, 500);
     });
+
+
+
